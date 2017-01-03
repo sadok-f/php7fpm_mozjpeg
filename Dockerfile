@@ -11,7 +11,6 @@ RUN apt-get -y update && \
 #install dependencies
 RUN apt-get -y install \
     imagemagick \
-    graphicsmagick \
     gcc nasm build-essential make wget \
     git vim
 
